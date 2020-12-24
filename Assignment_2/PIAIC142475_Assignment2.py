@@ -27,7 +27,7 @@ def function1():
     # dimension should be 6row 2 columns  
     # and assign this array values in x values in x variable
     # Hint: you can use arange and reshape numpy methods  
-    x =  # Write your code here 
+    x = np.arange(1,13).reshape((6,2))
 
     return x
     """
@@ -48,7 +48,7 @@ def function2():
     #array value should be satart from 10 and end with 36 (both included)
     # Hint: dtype, reshape 
     
-    x =     #wrtie your code here
+    x =     np.arange(10,37,dtype=np.float64).reshape((3,3,3))
 
 
     return x
@@ -72,7 +72,7 @@ def function3():
     #extract those numbers from given array. those are must exist in 5,7 Table
     #example [35,70,105,..]
     a = np.arange(1, 100*10+1).reshape((100,10))
-    x = a[] #wrtie your code here
+    x = a[(a%5==0) & (a%7==0)] #wrtie your code here
     return x
     """
     Expected Output:
@@ -87,7 +87,7 @@ def function4():
    
     arr = np.arange(9).reshape(3,3)
   
-    return #wrtie your code here
+    return arr[:,[1,0,2]] #wrtie your code here
     """
     Expected Output:
           array([[1, 0, 2],
@@ -99,7 +99,7 @@ def function4():
 def function5():
     #Create a null vector of size 20 with 4 rows and 5 columns with numpy function
    
-    z = #wrtie your code here
+    z = np.zeros((4,5),dtype=int) #wrtie your code here
   
     return z
     """
