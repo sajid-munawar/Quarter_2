@@ -114,7 +114,9 @@ def function5():
 def function6():
     # Create a null vector of size 10 but the fifth and eighth value which is 10,20 respectively
    
-    arr = #wrtie your code here
+    arr = np.zeros((10), dtype=int) #wrtie your code here
+    arr[4]=10
+    arr[7]=20
   
     return arr
    
@@ -124,7 +126,7 @@ def function7():
     #  Create an array of zeros with the same shape and type as X. Dont use reshape method
     x = np.arange(4, dtype=np.int64)
   
-    return #write your code here
+    return np.zeros_like(x) #write your code here
 
     """
     Expected Output:
@@ -229,7 +231,7 @@ def function14():
     # Hint use split method
     
     
-    arr = numpy.arange(10, 34, 1) #write reshape code
+    arr = np.arange(10, 34, 1) #write reshape code
     ans = #write your code here 
   
     return ans
