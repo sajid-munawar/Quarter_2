@@ -151,7 +151,7 @@ def function8():
 def function9():
     # Create an array of 2, 4, 6, 8, ..., 100.
     
-    a = # write your code here
+    a =np.arange(2,101,2) # write your code here
   
     return a
 
@@ -169,7 +169,7 @@ def function10():
     
     arr = np.array([[3,3,3],[4,4,4],[5,5,5]])
     brr = np.array([1,2,3])
-    subt = # write your code here 
+    subt = arr-brr[:,None] # write your code here 
   
     return subt
 
