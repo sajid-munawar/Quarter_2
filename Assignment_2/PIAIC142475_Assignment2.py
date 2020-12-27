@@ -186,7 +186,7 @@ def function11():
     # Replace all odd numbers in arr with -1 without changing arr.
     
     arr = np.array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
-    ans =np.where(arr%2==1,-1,arr) #write your code here 
+    ans =np.where(arr%2==1,-1,arr)
   
     return ans
 
@@ -201,7 +201,7 @@ def function12():
     # HINT: use stacking concept
     
     arr = np.array([1,2,3])
-    ans =np.hstack((np.repeat(arr,3),np.tile(arr,3)))
+    ans =np.r_[np.repeat(arr,3),np.tile(arr,3)]
   
     return ans
 
