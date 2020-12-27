@@ -348,6 +348,6 @@ def function20():
     def xyz(x):
         return x*2+3-2
 
-    return #Write your Code here
+    return xyz(x) #Write your Code here
 #Expected Output: array([ 3,  5,  7,  9, 11, 13, 15, 17, 19, 21])
 #--------------------------X-----------------------------X-----------------------------X----------------------------X---------------------
