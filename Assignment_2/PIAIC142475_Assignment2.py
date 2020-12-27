@@ -217,7 +217,7 @@ def function13():
     
     
     arr = np.array([2, 6, 1, 9, 10, 3, 27])
-    ans = #write your code here 
+    ans =arr[(arr>5) & (arr<10)]  #write your code here 
   
     return ans
 
