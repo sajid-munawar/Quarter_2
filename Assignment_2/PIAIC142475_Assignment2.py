@@ -233,7 +233,7 @@ def function14():
     
     
     arr = np.arange(10, 34, 1) #write reshape code
-    ans = #write your code here 
+    ans =np.vsplit(arr.reshape((8,3)),4) #write your code here 
   
     return ans
 
