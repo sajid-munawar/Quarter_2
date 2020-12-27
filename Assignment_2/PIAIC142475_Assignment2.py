@@ -329,6 +329,7 @@ def function19():
     W =   # Write your code here 
     b =   # Write your code here
     output =    # Write your code here
+    return output
 
     #expected output
     """
@@ -341,7 +342,7 @@ def function19():
 
 
 #Task20
-def fucntion20():
+def function20():
     #apply fuction "abc" on each value of Array "X"
     x = np.arange(1,11)
     def xyz(x):
