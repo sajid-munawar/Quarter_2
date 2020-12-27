@@ -289,7 +289,7 @@ def function17():
     # otherwise it will be replaced with "NO"
     # Hint: np.where
     arr = np.arange(1,10*10+1).reshape((10,10))
-    return           # Write Your Code HERE
+    return np.where((arr%3==0)&(arr%5==0),"YES","NO")           # Write Your Code HERE
 
 #Excpected Out
 """
