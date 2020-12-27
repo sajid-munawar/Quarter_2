@@ -325,10 +325,10 @@ def function19():
     # then create variable "b" with value equal to 5
     # Now return output as "(X*W)+b:
 
-    X =   # Write your code here
-    W =   # Write your code here 
-    b =   # Write your code here
-    output =    # Write your code here
+    X = np.arange(1,26).reshape((5,5))   # Write your code here
+    W =  np.asarray(X).T  # Write your code here 
+    b = 5  # Write your code here
+    output =  (X*W)+b  # Write your code here
     return output
 
     #expected output
