@@ -201,7 +201,7 @@ def function12():
     # HINT: use stacking concept
     
     arr = np.array([1,2,3])
-    ans =np.hstack((np.vstack((arr,arr,arr)).T.flatten(),np.hstack((arr,arr,arr)).flatten()))
+    ans =np.hstack((np.repeat(arr,3),np.tile(arr,3)))
   
     return ans
 
