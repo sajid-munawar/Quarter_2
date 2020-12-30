@@ -344,9 +344,9 @@ def function19():
 def function20():
     #apply fuction "abc" on each value of Array "X"
     x = np.arange(1,11)
-    def xyz(x):
+    def abc(x):
         return x*2+3-2
 
-    return xyz(x) #Write your Code here
+    return abc(x) #Write your Code here
 #Expected Output: array([ 3,  5,  7,  9, 11, 13, 15, 17, 19, 21])
 #--------------------------X-----------------------------X-----------------------------X----------------------------X---------------------
